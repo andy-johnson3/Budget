@@ -1,0 +1,23 @@
+
+
+MENU
+1 - Import New transactions
+    1 - Prompt to confirm Merge Transaction files
+    2 - Tag transactions (if able)
+        - Load transaction name database into dictionary
+        - Compare name to Transaction, apply tag if match, else leave blank
+        - Increment counter variable if not tagged
+    3 - Prompt with how many transactions were not tagged
+    4 - Insert new transactions
+    5 - Tag untagged transactions in SQLLite
+2 - View Monthly Budget
+    - Show Total Income Category (Budgeted vs Actual)
+    - Show Total Bills Category (Budgeted vs Actual)
+    - Show Expense Category Totals (Budgeted vs Actual)
+3 - View Monthly Bills
+    - Show all Bill tags and attributes, sorted by due day
+    - If actual amount is > 0, then it is paid
+4 - View Incomes
+    - Show all Income tag attributes
+
+
